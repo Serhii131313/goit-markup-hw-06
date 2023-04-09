@@ -429,9 +429,8 @@ address {
 }
 .checkbox:checked + .fake {
   border: 0px;
-
+  background-image: url(../images/svg/vector.svg);
   background-position: center;
-  background-color: #4d5ae5;
 }
 .fake {
   width: 16px;
