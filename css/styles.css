@@ -427,9 +427,9 @@ address {
   color: var(--border-company-color);
 }
 .checkbox:checked + .fake {
-  border: 0px;
   background-image: url(../images/svg/vector1.svg);
   background-position: center;
+  background-repeat: no-repeat;
 }
 .checkbox:checked:focus + .fake {
   border: 1px solid rgba(46, 47, 66, 0.4);
